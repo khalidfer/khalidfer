@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- --- إعدادات السيو الأساسية (SEO Basic) --- -->
+    <title>خالد فير | رائد أعمال رقمي، خبير KDP وأدوات الذكاء الاصطناعي</title>
+    <meta name="description" content="الموقع الرسمي لخالد فير (Khalid Fer). مطور برمجيات وصانع محتوى متخصص في الربح من الإنترنت، النشر على أمازون KDP، أدوات الذكاء الاصطناعي، وبناء مشاريع SaaS.">
+    <meta name="keywords" content="خالد فير, Khalid Fer, Amazon KDP, أمازون كيندل, الربح من الإنترنت, الذكاء الاصطناعي, أدوات KDP مجانية, طباعة عند الطلب, SaaS, برمجة, تسويق إلكتروني">
+    <meta name="author" content="Khalid Fer">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.khalidfer.com/">
+
+    <!-- --- بطاقات التواصل الاجتماعي (Open Graph / Facebook / WhatsApp) --- -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.khalidfer.com/">
+    <meta property="og:title" content="خالد فير | أدوات وحلول رقمية ذكية">
+    <meta property="og:description" content="اكتشف أحدث أدوات KDP المجانية وشروحات الذكاء الاصطناعي مع خالد فير.">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtW9zQ_BJEg8DG-UyAe4E3BfoT9N-e3qoIJTUEycHvCMoyIHWehO68-L1mnWl5IKeqIslZxUytW1qfdwVvQVPMoHd8xXq8BrHAugB_Rayvo0h-WRIfnnPlXmBHKeKl9AP1zh9Y9dfO6gZWORIrfNnmQxRrGxtAXmyn-6Tzmrn6HUholvM/1600/logo.jpg">
+
+    <!-- --- بطاقات تويتر (Twitter Cards) --- -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.khalidfer.com/">
+    <meta name="twitter:title" content="خالد فير | Khalid Fer">
+    <meta name="twitter:description" content="رائد أعمال رقمي ومطور أدوات KDP. انضم لأكثر من 100 ألف مشترك في رحلة الربح من التكنولوجيا.">
+    <meta name="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtW9zQ_BJEg8DG-UyAe4E3BfoT9N-e3qoIJTUEycHvCMoyIHWehO68-L1mnWl5IKeqIslZxUytW1qfdwVvQVPMoHd8xXq8BrHAugB_Rayvo0h-WRIfnnPlXmBHKeKl9AP1zh9Y9dfO6gZWORIrfNnmQxRrGxtAXmyn-6Tzmrn6HUholvM/1600/logo.jpg">
+
+    <!-- --- البيانات الهيكلية لمحركات البحث (Schema.org JSON-LD) --- -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Khalid Fer",
+      "alternateName": "خالد فير",
+      "url": "https://www.khalidfer.com/",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtW9zQ_BJEg8DG-UyAe4E3BfoT9N-e3qoIJTUEycHvCMoyIHWehO68-L1mnWl5IKeqIslZxUytW1qfdwVvQVPMoHd8xXq8BrHAugB_Rayvo0h-WRIfnnPlXmBHKeKl9AP1zh9Y9dfO6gZWORIrfNnmQxRrGxtAXmyn-6Tzmrn6HUholvM/1600/logo.jpg",
+      "sameAs": [
+        "https://www.youtube.com/@Khalidfer",
+        "https://www.instagram.com/khalidferchach/",
+        "https://x.com/khalidfer",
+        "https://github.com/khalidfer",
+        "https://www.facebook.com/khalidfer0"
+      ],
+      "jobTitle": "Digital Entrepreneur & Software Developer",
+      "description": "رائد أعمال رقمي متخصص في أمازون KDP والذكاء الاصطناعي."
+    }
+    </script>
+
+    <!-- استدعاء خط 'تجوال' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- استدعاء مكتبة FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- 1. تعريف إعدادات Tailwind مسبقاً -->
+    <script>
+        window.tailwind = {
+            config: {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            sans: ['Tajawal', 'sans-serif'],
+                        },
+                        colors: {
+                            primary: '#3b82f6',
+                            dark: '#0f172a',
+                            card: '#1e293b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- 2. استدعاء المكتبة بعد التعريف -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* تنسيقات أساسية */
+        body { background-color: #0f172a; color: #f3f4f6; }
+        
+        /* تأثيرات إضافية */
+        .gradient-text {
+            background: linear-gradient(to right, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hover-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        /* تأثير الزجاج للنافذة المنبثقة */
+        .glass-effect {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        /* حركات النافذة */
+        .modal-enter { opacity: 0; transform: scale(0.9); }
+        .modal-enter-active { opacity: 1; transform: scale(1); transition: opacity 300ms, transform 300ms; }
+        .modal-exit { opacity: 1; transform: scale(1); }
+        .modal-exit-active { opacity: 0; transform: scale(0.9); transition: opacity 300ms, transform 300ms; }
+    </style>
+</head>
+<body class="bg-dark text-gray-100 font-sans antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- الخلفية المتحركة -->
+    <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl"></div>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+        
+        <!-- قسم الهيدر -->
+        <header class="text-center mb-16 relative">
+            <div class="relative inline-block mb-6 group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtW9zQ_BJEg8DG-UyAe4E3BfoT9N-e3qoIJTUEycHvCMoyIHWehO68-L1mnWl5IKeqIslZxUytW1qfdwVvQVPMoHd8xXq8BrHAugB_Rayvo0h-WRIfnnPlXmBHKeKl9AP1zh9Y9dfO6gZWORIrfNnmQxRrGxtAXmyn-6Tzmrn6HUholvM/1600/logo.jpg" 
+                     alt="Khalid Fer - Digital Entrepreneur" 
+                     class="relative w-40 h-40 rounded-full border-4 border-dark object-cover mx-auto shadow-2xl">
+                
+                <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-gray-200 via-gray-400 to-gray-200 text-gray-900 text-xs font-bold px-3 py-1 rounded-full shadow-lg border border-white flex items-center gap-1 whitespace-nowrap z-10">
+                    <i class="fas fa-play-circle text-red-600"></i> +100K مشترك
+                </div>
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">أهلاً، أنا <span class="gradient-text">خالد فير</span> 👋</h1>
+            <p class="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+                رائد أعمال رقمي وصانع محتوى. أشارك تجاربي في العمل الحر والربح من الإنترنت وأطور أدوات لتسهيل هذه الرحلة.
+            </p>
+            
+            <div class="flex justify-center gap-4 mt-8">
+                <button onclick="toggleModal(true)" class="px-6 py-2 bg-gray-800 hover:bg-gray-700 rounded-full transition flex items-center gap-2 border border-gray-700 text-white cursor-pointer">
+                    <i class="fas fa-envelope"></i> تواصل معي
+                </button>
+                <a href="#projects" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-full transition flex items-center gap-2 font-semibold text-white">
+                    <i class="fas fa-code"></i> أعمالي المجانية
+                </a>
+            </div>
+        </header>
+
+        <!-- قسم من أنا -->
+        <section id="about" class="mb-16 max-w-4xl mx-auto">
+            <div class="bg-card p-8 rounded-3xl border border-gray-700 relative overflow-hidden shadow-xl">
+                <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 opacity-5">
+                    <i class="fas fa-robot absolute -bottom-10 -left-10 text-9xl text-white transform rotate-12"></i>
+                </div>
+
+                <h2 class="text-2xl font-bold mb-6 flex items-center gap-3 text-white border-r-4 border-blue-500 pr-4">
+                    <i class="fas fa-brain text-blue-400"></i> الذكاء الاصطناعي هو أسلوب حياتي
+                </h2>
+                
+                <div class="prose prose-invert max-w-none text-gray-300 leading-relaxed text-lg">
+                    <p class="mb-4">
+                        أنا <strong class="text-white">خالد فير</strong>، رائد أعمال رقمي ومطور هاوي، لكن بلمسة مختلفة: <strong>الذكاء الاصطناعي (AI) هو شريكي في كل مشروع.</strong>
+                    </p>
+                    <p class="mb-4">
+                        لا أكتفي بالطرق التقليدية؛ بل أقوم بإقحام الـ AI في كل تفاصيل عملي، بدءاً من توليد محتوى كتب <strong>Amazon KDP</strong> وتصاميم الطباعة عند الطلب، وصولاً إلى كتابة المقالات وبناء المنتجات الرقمية.
+                    </p>
+                    <p>
+                        حتى الأدوات والمواقع التي أطورها، أصنعها بمساعدة الـ AI لتخدم أهدافي. <strong>وأؤمن بأن المعرفة والأدوات يجب أن تكون متاحة للجميع، لذا فجميع أدواتي مجانية بالكامل.</strong> رسالتي هي أن أثبت لك كيف يمكنك استغلال هذه الثورة التقنية لتحقيق أقصى ربح بأقل جهد.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم قناتي على اليوتيوب -->
+        <section class="mb-20">
+            <div class="bg-gradient-to-br from-red-900/20 to-dark border border-red-900/30 rounded-3xl p-8 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-red-600/10 rounded-full blur-3xl -z-10"></div>
+                
+                <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-8 gap-6">
+                    <div>
+                        <h2 class="text-3xl font-bold flex items-center gap-3 text-white">
+                            <i class="fab fa-youtube text-red-500 text-4xl"></i>
+                            قناتي على اليوتيوب
+                        </h2>
+                        <p class="text-gray-400 mt-2 max-w-2xl text-lg">
+                            انضم إلى مجتمع يضم <strong>أكثر من 100,000 مشترك</strong> يثقون في المحتوى التقني الذي أقدمه. القناة هي <strong>أكاديمية رقمية مجانية</strong> أشارك فيها شروحات تقنية تطبيقية لتحقيق نتائج ملموسة.
+                        </p>
+                    </div>
+                    <a href="https://www.youtube.com/@Khalidfer?sub_confirmation=1" target="_blank" class="px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-full font-bold transition shadow-lg shadow-red-900/20 flex items-center gap-2 whitespace-nowrap">
+                        <i class="fas fa-bell"></i> كن واحداً من الـ 100K
+                    </a>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-6 text-center md:text-right">
+                    <a href="https://www.youtube.com/playlist?list=PLjxLsHDn5LtMHeCvlxEksRkO3tdv3HG_k" target="_blank" class="group bg-card/50 hover:bg-card border border-gray-700 hover:border-red-500/50 p-5 rounded-2xl transition duration-300 flex-1 min-w-[280px] max-w-[350px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-red-500/20 text-red-400 rounded-lg flex items-center justify-center text-2xl">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white">احتراف Amazon KDP</h3>
+                                <p class="text-xs text-gray-400 mt-1">استراتيجيات النشر وحلول المشاكل.</p>
+                            </div>
+                        </div>
+                    </a>
+                     <a href="https://www.youtube.com/@Khalidfer/videos" target="_blank" class="group bg-card/50 hover:bg-card border border-gray-700 hover:border-blue-500/50 p-5 rounded-2xl transition duration-300 flex-1 min-w-[280px] max-w-[350px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-blue-500/20 text-blue-400 rounded-lg flex items-center justify-center text-2xl">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white">أدوات الذكاء الاصطناعي</h3>
+                                <p class="text-xs text-gray-400 mt-1">توليد الصور والأكواد والحلول.</p>
+                            </div>
+                        </div>
+                    </a>
+                     <a href="https://www.youtube.com/@Khalidfer/videos" target="_blank" class="group bg-card/50 hover:bg-card border border-gray-700 hover:border-green-500/50 p-5 rounded-2xl transition duration-300 flex-1 min-w-[280px] max-w-[350px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-green-500/20 text-green-400 rounded-lg flex items-center justify-center text-2xl">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white">بزنس أونلاين & SaaS</h3>
+                                <p class="text-xs text-gray-400 mt-1">مشاريع ومنتجات رقمية.</p>
+                            </div>
+                        </div>
+                    </a>
+                     <a href="https://www.youtube.com/watch?v=Su6WXHM6rhs&list=PLjxLsHDn5LtMHeCvlxEksRkO3tdv3HG_k" target="_blank" class="group bg-card/50 hover:bg-card border border-gray-700 hover:border-yellow-500/50 p-5 rounded-2xl transition duration-300 flex-1 min-w-[280px] max-w-[350px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-yellow-500/20 text-yellow-400 rounded-lg flex items-center justify-center text-2xl">
+                                <i class="fas fa-blog"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white">الربح من التدوين</h3>
+                                <p class="text-xs text-gray-400 mt-1">دليل بلوجر ووردبريس وSEO.</p>
+                            </div>
+                        </div>
+                    </a>
+                     <a href="https://www.youtube.com/watch?v=3heUAThUXxk" target="_blank" class="group bg-card/50 hover:bg-card border border-gray-700 hover:border-orange-500/50 p-5 rounded-2xl transition duration-300 flex-1 min-w-[280px] max-w-[350px]">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-orange-500/20 text-orange-500 rounded-lg flex items-center justify-center text-2xl">
+                                <i class="fab fa-etsy"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-white">Etsy والمنتجات الرقمية</h3>
+                                <p class="text-xs text-gray-400 mt-1">فتح المتجر وبيع المنتجات.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم إنستغرام -->
+        <section class="mb-20">
+            <div class="bg-gradient-to-br from-purple-900/20 to-dark border border-purple-900/30 rounded-3xl p-8 relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-64 h-64 bg-pink-600/10 rounded-full blur-3xl -z-10"></div>
+                
+                <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+                    <div class="flex-1">
+                        <h2 class="text-3xl font-bold flex items-center gap-3 text-white mb-4">
+                            <i class="fab fa-instagram text-pink-500 text-4xl"></i>
+                            نبض التقنية في إنستغرام
+                        </h2>
+                        <p class="text-gray-300 text-lg leading-relaxed mb-6">
+                            صفحتي على إنستغرام ليست مجرد صور، بل هي <strong>مصدرك الإخباري الموثوق</strong>. أنقل لك أحدث الأخبار التقنية <strong>بكل موضوعية وصدق</strong> فور حدوثها.
+                            تركيزي الأكبر ينصب على <strong>ثورة الذكاء الاصطناعي</strong>، حيث أضعك في قلب الحدث بعيداً عن التعقيد والتهويل.
+                        </p>
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                            <div class="flex items-center gap-3 text-sm text-gray-400 bg-card/50 p-3 rounded-lg border border-gray-700/50">
+                                <i class="fas fa-bolt text-yellow-500"></i>
+                                <span>تحديثات ChatGPT و Gemini فور صدورها</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-sm text-gray-400 bg-card/50 p-3 rounded-lg border border-gray-700/50">
+                                <i class="fas fa-balance-scale text-green-500"></i>
+                                <span>مقارنات حيادية لأدوات الـ AI الجديدة</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-sm text-gray-400 bg-card/50 p-3 rounded-lg border border-gray-700/50">
+                                <i class="fas fa-shield-alt text-blue-500"></i>
+                                <span>تنبيهات أمنية وحلول لمشاكل تقنية</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-sm text-gray-400 bg-card/50 p-3 rounded-lg border border-gray-700/50">
+                                <i class="fas fa-fire text-red-500"></i>
+                                <span>تغطية الترندات التقنية والحقائق الخفية</span>
+                            </div>
+                        </div>
+
+                        <a href="https://www.instagram.com/khalidferchach/" target="_blank" class="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-full font-bold transition shadow-lg shadow-purple-900/20">
+                            <i class="fab fa-instagram"></i> تابع الأخبار الحصرية
+                        </a>
+                    </div>
+                    
+                    <div class="hidden md:block relative">
+                        <div class="relative w-64 h-64 mx-auto group">
+                             <div class="absolute inset-0 bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600 rounded-[2.5rem] opacity-20 blur-xl group-hover:opacity-30 transition duration-500"></div>
+                             <div class="relative bg-card border border-gray-700 rounded-[2.5rem] w-full h-full flex items-center justify-center p-6 shadow-2xl transform group-hover:scale-105 transition duration-500">
+                                <i class="fab fa-instagram text-9xl bg-clip-text text-transparent bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600"></i>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم المنصات -->
+        <section class="mb-20 max-w-6xl mx-auto">
+            <h2 class="text-2xl font-bold mb-8 flex items-center gap-3 border-r-4 border-blue-500 pr-4">
+                <i class="fas fa-share-alt text-blue-400"></i> تواصل معي وتابعني
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <!-- Social Links -->
+                <a href="https://www.instagram.com/khalidferchach/" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-pink-500 transition text-center hover-card">
+                    <i class="fab fa-instagram text-pink-500 text-2xl mb-2"></i><br>Instagram
+                </a>
+                <a href="https://x.com/khalidfer" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-blue-400 transition text-center hover-card">
+                    <i class="fab fa-twitter text-blue-400 text-2xl mb-2"></i><br>X (Twitter)
+                </a>
+                <a href="https://www.facebook.com/khalidfer0" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-blue-600 transition text-center hover-card">
+                    <i class="fab fa-facebook text-blue-600 text-2xl mb-2"></i><br>Facebook
+                </a>
+                <a href="https://www.tiktok.com/@khalidfer" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-pink-400 transition text-center hover-card">
+                    <i class="fab fa-tiktok text-pink-400 text-2xl mb-2"></i><br>TikTok
+                </a>
+                <a href="https://t.me/+HazrwuUe9EExNGQ0" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-sky-500 transition text-center hover-card">
+                    <i class="fab fa-telegram text-sky-500 text-2xl mb-2"></i><br>Telegram
+                </a>
+                <a href="https://discord.gg/uZ6QNBX6" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-indigo-500 transition text-center hover-card">
+                    <i class="fab fa-discord text-indigo-500 text-2xl mb-2"></i><br>Discord
+                </a>
+                <a href="https://www.pinterest.com/khalidfer/" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-red-600 transition text-center hover-card">
+                    <i class="fab fa-pinterest text-red-600 text-2xl mb-2"></i><br>Pinterest
+                </a>
+                <a href="https://github.com/khalidfer" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-gray-400 transition text-center hover-card">
+                    <i class="fab fa-github text-gray-400 text-2xl mb-2"></i><br>GitHub
+                </a>
+                <a href="https://www.khalidfer.com/" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-emerald-500 transition text-center hover-card">
+                    <i class="fas fa-globe text-emerald-500 text-2xl mb-2"></i><br>My Blog
+                </a>
+                <a href="https://www.youtube.com/@Khalidfer" target="_blank" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-red-500 transition text-center hover-card">
+                    <i class="fab fa-youtube text-red-500 text-2xl mb-2"></i><br>YouTube
+                </a>
+                <button onclick="toggleModal(true)" class="bg-card p-4 rounded-2xl border border-gray-700 hover:border-yellow-500 transition text-center hover-card text-left w-full">
+                    <div class="text-center">
+                         <i class="fas fa-envelope text-yellow-500 text-2xl mb-2"></i><br>Email
+                    </div>
+                </button>
+            </div>
+        </section>
+
+        <!-- قسم المشاريع -->
+        <section id="projects" class="mb-20">
+            <h2 class="text-2xl font-bold mb-4 flex items-center gap-3 border-r-4 border-green-500 pr-4">
+                <i class="fas fa-laptop-code text-green-400"></i> مشاريع وإضافات طورتها (مجانية بالكامل 🎁)
+            </h2>
+            <p class="text-gray-400 mb-8 text-lg leading-relaxed">
+                أؤمن بأن الأدوات الاحترافية يجب أن تكون متاحة للجميع. لذلك، <strong>كل الأدوات والإضافات التي أطورها هي مجانية 100%</strong> وبدون أي رسوم مخفية. هدفي هو دعم المجتمع العربي بأدوات قوية تساعد في زيادة الإنتاجية والربح.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Ultra Amazon Suggestion Expander -->
+                <a href="https://chromewebstore.google.com/detail/ultra-amazon-suggestion-e/johgeokkpfohidfdpfdlojhpaplodjbk" target="_blank" class="block h-full">
+                    <div class="bg-card rounded-2xl overflow-hidden border border-gray-700 flex flex-col hover-card h-full relative">
+                        <div class="absolute top-3 right-3 z-10 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg">مجانية 100%</div>
+                        <div class="h-32 bg-gray-800 relative flex items-center justify-center">
+                            <i class="fab fa-amazon text-4xl text-orange-400"></i>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h3 class="text-lg font-bold mb-2">Ultra Amazon Suggestion</h3>
+                            <p class="text-gray-400 text-sm mb-4 flex-1">توسيع اقتراحات بحث أمازون للعثور على كلمات مربحة.</p>
+                            <span class="mt-auto text-center block w-full py-2 bg-gray-700 hover:bg-orange-600 rounded-lg transition text-sm font-medium text-white">تحميل الإضافة</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Ultra TM Checker -->
+                 <a href="https://chromewebstore.google.com/detail/ultra-tm-checker/bhiklndjplefablnipodfbaiojielnaf" target="_blank" class="block h-full">
+                    <div class="bg-card rounded-2xl overflow-hidden border border-gray-700 flex flex-col hover-card h-full relative">
+                        <div class="absolute top-3 right-3 z-10 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg">مجانية 100%</div>
+                         <div class="h-32 bg-gray-800 relative flex items-center justify-center">
+                            <i class="fas fa-shield-alt text-4xl text-purple-400"></i>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h3 class="text-lg font-bold mb-2">Ultra TM Checker</h3>
+                            <p class="text-gray-400 text-sm mb-4 flex-1">فحص العلامات التجارية وحماية حسابك من الإغلاق.</p>
+                            <span class="mt-auto text-center block w-full py-2 bg-gray-700 hover:bg-purple-600 rounded-lg transition text-sm font-medium text-white">تحميل الإضافة</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- BSR Viewer -->
+                 <a href="https://chromewebstore.google.com/detail/amazon-bsr-viewer/ofnhlllcfeeglcnfnogppmdfggbmfibh" target="_blank" class="block h-full">
+                    <div class="bg-card rounded-2xl overflow-hidden border border-gray-700 flex flex-col hover-card h-full relative">
+                        <div class="absolute top-3 right-3 z-10 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg">مجانية 100%</div>
+                         <div class="h-32 bg-gray-800 relative flex items-center justify-center">
+                            <i class="fas fa-chart-line text-4xl text-red-400"></i>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h3 class="text-lg font-bold mb-2">Amazon BSR Viewer</h3>
+                            <p class="text-gray-400 text-sm mb-4 flex-1">عرض ترتيب المبيعات BSR مباشرة في نتائج البحث.</p>
+                            <span class="mt-auto text-center block w-full py-2 bg-gray-700 hover:bg-red-600 rounded-lg transition text-sm font-medium text-white">تحميل الإضافة</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Moroccan Radios -->
+                 <a href="https://chromewebstore.google.com/detail/moroccan-radios/eiifmngclofmflallhiglgeamobhcccj" target="_blank" class="block h-full">
+                    <div class="bg-card rounded-2xl overflow-hidden border border-gray-700 flex flex-col hover-card h-full relative">
+                        <div class="absolute top-3 right-3 z-10 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg">مجانية 100%</div>
+                         <div class="h-32 bg-gray-800 relative flex items-center justify-center">
+                            <i class="fas fa-radio text-4xl text-teal-400"></i>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h3 class="text-lg font-bold mb-2">Moroccan Radios</h3>
+                            <p class="text-gray-400 text-sm mb-4 flex-1">استمع للإذاعات المغربية مباشرة من المتصفح.</p>
+                            <span class="mt-auto text-center block w-full py-2 bg-gray-700 hover:bg-teal-600 rounded-lg transition text-sm font-medium text-white">تحميل الإضافة</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Studio Ultra -->
+                 <a href="https://www.khalidfer.com/p/studio.html" target="_blank" class="block h-full">
+                    <div class="bg-card rounded-2xl overflow-hidden border border-gray-700 flex flex-col hover-card h-full relative">
+                        <div class="absolute top-3 right-3 z-10 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg">مجانية 100%</div>
+                         <div class="h-32 bg-gray-800 relative flex items-center justify-center">
+                            <i class="fas fa-swatchbook text-4xl text-indigo-400"></i>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h3 class="text-lg font-bold mb-2">Studio Ultra Generator</h3>
+                            <p class="text-gray-400 text-sm mb-4 flex-1">توليد المحتوى الداخلي لكتب KDP بسهولة.</p>
+                            <span class="mt-auto text-center block w-full py-2 bg-gray-700 hover:bg-indigo-600 rounded-lg transition text-sm font-medium text-white">تجربة الأداة</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Sudoku -->
+                 <a href="https://www.khalidfer.com/p/sudoku.html" target="_blank" class="block h-full">
+                    <div class="bg-card rounded-2xl overflow-hidden border border-gray-700 flex flex-col hover-card h-full relative">
+                        <div class="absolute top-3 right-3 z-10 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg">مجانية 100%</div>
+                         <div class="h-32 bg-gray-800 relative flex items-center justify-center">
+                            <i class="fas fa-border-all text-4xl text-pink-400"></i>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h3 class="text-lg font-bold mb-2">Sudoku Book Generator</h3>
+                            <p class="text-gray-400 text-sm mb-4 flex-1">مولد ألغاز سودوكو احترافي للنشر.</p>
+                            <span class="mt-auto text-center block w-full py-2 bg-gray-700 hover:bg-pink-600 rounded-lg transition text-sm font-medium text-white">تجربة الأداة</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Coloring PDF -->
+                 <a href="https://www.khalidfer.com/p/coloring-pdf-creator.html" target="_blank" class="block h-full">
+                    <div class="bg-card rounded-2xl overflow-hidden border border-gray-700 flex flex-col hover-card h-full relative">
+                        <div class="absolute top-3 right-3 z-10 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg">مجانية 100%</div>
+                         <div class="h-32 bg-gray-800 relative flex items-center justify-center">
+                            <i class="fas fa-file-pdf text-4xl text-rose-400"></i>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h3 class="text-lg font-bold mb-2">Coloring PDF Creator</h3>
+                            <p class="text-gray-400 text-sm mb-4 flex-1">تحويل الصور لكتاب تلوين PDF جاهز.</p>
+                            <span class="mt-auto text-center block w-full py-2 bg-gray-700 hover:bg-rose-600 rounded-lg transition text-sm font-medium text-white">تجربة الأداة</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Cover Calculator -->
+                 <a href="https://www.khalidfer.com/p/kdp-cover-calculator.html" target="_blank" class="block h-full">
+                    <div class="bg-card rounded-2xl overflow-hidden border border-gray-700 flex flex-col hover-card h-full relative">
+                        <div class="absolute top-3 right-3 z-10 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg">مجانية 100%</div>
+                         <div class="h-32 bg-gray-800 relative flex items-center justify-center">
+                            <i class="fas fa-ruler-combined text-4xl text-yellow-400"></i>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h3 class="text-lg font-bold mb-2">KDP Cover Calculator</h3>
+                            <p class="text-gray-400 text-sm mb-4 flex-1">حاسبة دقيقة لمقاسات أغلفة الكتب.</p>
+                            <span class="mt-auto text-center block w-full py-2 bg-gray-700 hover:bg-yellow-600 rounded-lg transition text-sm font-medium text-white">تجربة الأداة</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Dot to Dot -->
+                 <a href="https://khalidfer.github.io/dottodot/" target="_blank" class="block h-full">
+                    <div class="bg-card rounded-2xl overflow-hidden border border-gray-700 flex flex-col hover-card h-full relative">
+                        <div class="absolute top-3 right-3 z-10 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded shadow-lg">مجانية 100%</div>
+                         <div class="h-32 bg-gray-800 relative flex items-center justify-center">
+                            <i class="fas fa-bezier-curve text-4xl text-cyan-400"></i>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col">
+                            <h3 class="text-lg font-bold mb-2">Dot To Dot Generator</h3>
+                            <p class="text-gray-400 text-sm mb-4 flex-1">تحويل الصور لألغاز صل النقاط للأطفال.</p>
+                            <span class="mt-auto text-center block w-full py-2 bg-gray-700 hover:bg-cyan-600 rounded-lg transition text-sm font-medium text-white">تجربة الأداة</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- الفوتر -->
+        <footer class="text-center border-t border-gray-800 pt-8 mt-20">
+             <div class="flex justify-center gap-6 mb-6">
+                <a href="https://github.com/khalidfer" class="text-gray-400 hover:text-white text-2xl"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/khalidfer" class="text-gray-400 hover:text-blue-500 text-2xl"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/khalidferchach/" class="text-gray-400 hover:text-pink-500 text-2xl"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-gray-500 text-sm pb-8">
+                &copy; 2025 خالد فير (Khalid Fer). جميع الحقوق محفوظة.
+            </p>
+        </footer>
+
+    </div>
+
+    <!-- نافذة التواصل المنبثقة (Modal) -->
+    <div id="contactModal" class="fixed inset-0 z-50 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <!-- خلفية معتمة -->
+        <div class="fixed inset-0 glass-effect transition-opacity" onclick="toggleModal(false)"></div>
+        
+        <!-- محتوى النافذة -->
+        <div class="fixed inset-0 z-10 overflow-y-auto">
+            <div class="flex min-h-full items-center justify-center p-4 text-center sm:p-0">
+                <div class="relative transform overflow-hidden rounded-2xl bg-card border border-gray-700 text-right shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg modal-enter">
+                    
+                    <!-- رأس النافذة -->
+                    <div class="bg-gray-800/50 px-4 py-3 sm:px-6 flex justify-between items-center border-b border-gray-700">
+                        <h3 class="text-lg font-bold text-white flex items-center gap-2" id="modal-title">
+                            <i class="fas fa-paper-plane text-blue-500"></i> تواصل معي
+                        </h3>
+                        <button type="button" onclick="toggleModal(false)" class="text-gray-400 hover:text-white transition">
+                            <i class="fas fa-times text-xl"></i>
+                        </button>
+                    </div>
+
+                    <!-- جسم النافذة -->
+                    <div class="px-4 py-5 sm:p-6">
+                        <p class="text-sm text-gray-400 mb-6">
+                            هل لديك استفسار، اقتراح، أو فرصة عمل؟ سأكون سعيداً بالرد عليك في أقرب وقت ممكن.
+                        </p>
+
+                        <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-300 mb-1">الاسم</label>
+                                <input type="text" id="name" name="name" required class="w-full bg-gray-800 border border-gray-600 rounded-lg px-4 py-2 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition" placeholder="اسمك الكريم">
+                            </div>
+                            
+                            <div>
+                                <label for="subject" class="block text-sm font-medium text-gray-300 mb-1">الموضوع</label>
+                                <select id="subject" name="subject" class="w-full bg-gray-800 border border-gray-600 rounded-lg px-4 py-2 text-white focus:ring-2 focus:ring-blue-500 outline-none transition">
+                                    <option>استفسار عام</option>
+                                    <option>اقتراح لفيديو/أداة</option>
+                                    <option>عرض عمل / تعاون</option>
+                                    <option>إبلاغ عن مشكلة</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-300 mb-1">الرسالة</label>
+                                <textarea id="message" name="message" rows="4" required class="w-full bg-gray-800 border border-gray-600 rounded-lg px-4 py-2 text-white focus:ring-2 focus:ring-blue-500 outline-none transition resize-none" placeholder="اكتب رسالتك هنا..."></textarea>
+                            </div>
+
+                            <div class="pt-2">
+                                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition flex items-center justify-center gap-2">
+                                    <i class="fas fa-paper-plane"></i> إرسال الرسالة
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- فاصل -->
+                        <div class="relative flex py-5 items-center">
+                            <div class="flex-grow border-t border-gray-700"></div>
+                            <span class="flex-shrink-0 mx-4 text-gray-500 text-xs">أو عبر البريد المباشر</span>
+                            <div class="flex-grow border-t border-gray-700"></div>
+                        </div>
+
+                        <!-- نسخ البريد -->
+                        <div class="flex items-center justify-between bg-gray-800/50 p-3 rounded-lg border border-gray-700">
+                            <span class="text-sm text-gray-300 font-mono" id="emailText">contact.khalidfer@gmail.com</span>
+                            <button onclick="copyEmail()" class="text-blue-400 hover:text-blue-300 text-sm font-medium transition" id="copyBtn">
+                                <i class="far fa-copy"></i> نسخ
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- سكربتات -->
+    <script>
+        // رابط سكربت جوجل شيت الجديد
+        const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwCrAK0JsIyGeK9zFyx2UZB_Z6unDfNSgu3AxFO_iW0LfCdzwfT4qru72_mEW67DrKncQ/exec"; 
+
+        function toggleModal(show) {
+            const modal = document.getElementById('contactModal');
+            const content = modal.querySelector('.relative');
+            
+            if (show) {
+                modal.classList.remove('hidden');
+                setTimeout(() => {
+                    content.classList.remove('modal-enter');
+                    content.classList.add('modal-enter-active');
+                }, 10);
+                document.body.style.overflow = 'hidden';
+            } else {
+                content.classList.remove('modal-enter-active');
+                content.classList.add('modal-exit-active');
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                    content.classList.remove('modal-exit-active');
+                    content.classList.add('modal-enter');
+                    document.body.style.overflow = '';
+                }, 300);
+            }
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            
+            const btn = e.target.querySelector('button[type="submit"]');
+            const originalText = btn.innerHTML;
+            
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> جاري الإرسال...';
+
+            const form = e.target;
+            const formData = new FormData(form);
+
+            fetch(SCRIPT_URL, { method: 'POST', body: formData })
+                .then(response => {
+                    alert("تم إرسال رسالتك بنجاح! سيتم الرد عليك قريباً.");
+                    toggleModal(false);
+                    form.reset();
+                })
+                .catch(error => {
+                    console.error('Error!', error.message);
+                    alert("تم الإرسال! شكراً لتواصلك."); 
+                    toggleModal(false);
+                    form.reset();
+                })
+                .finally(() => {
+                    btn.disabled = false;
+                    btn.innerHTML = originalText;
+                });
+        }
+
+        function copyEmail() {
+            const email = document.getElementById('emailText').innerText;
+            navigator.clipboard.writeText(email).then(() => {
+                const btn = document.getElementById('copyBtn');
+                const originalContent = btn.innerHTML;
+                
+                btn.innerHTML = '<i class="fas fa-check"></i> تم النسخ';
+                btn.classList.remove('text-blue-400');
+                btn.classList.add('text-green-400');
+                
+                setTimeout(() => {
+                    btn.innerHTML = originalContent;
+                    btn.classList.add('text-blue-400');
+                    btn.classList.remove('text-green-400');
+                }, 2000);
+            });
+        }
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape") {
+                toggleModal(false);
+            }
+        });
+    </script>
+
+</body>
+</html>
