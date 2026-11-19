@@ -1,36 +1,360 @@
-### Hi, I'm Khalid Ferchach (Khalid Fer)
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khalid Ferchach (Khalid Fer) — Software Developer & Digital Creator</title>
+  <meta name="description" content="Official portfolio of Khalid Ferchach (Khalid Fer) — Windows desktop software developer, Android app builder, browser extension creator, and YouTuber (100K+)." />
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/105456333?v=4" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            obsidian: '#09090B',
+            surface: '#141417',
+            surfaceHover: '#1C1C21',
+            borderSubtle: '#27272A',
+            emeraldPro: '#10B981',
+            emeraldHover: '#059669',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #09090B;
+      color: #FAFAFA;
+      overflow-x: hidden;
+    }
+    .bg-grid {
+      background-size: 44px 44px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+    }
+    .glass-nav {
+      background: rgba(9, 9, 11, 0.82);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .project-card {
+      position: relative;
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, background-color 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-3px);
+      border-color: #3F3F46;
+      background-color: #18181C;
+    }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #09090B; }
+    ::-webkit-scrollbar-thumb { background: #27272A; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #3F3F46; }
+  </style>
+</head>
+<body class="bg-grid antialiased selection:bg-emeraldPro/30 selection:text-emerald-200">
 
-I build desktop software, Android apps, browser extensions, and web utilities focused on publishing automation, print-on-demand workflows, and practical AI integration. I also run a tech and digital business YouTube channel with **100K+ subscribers**.
+  <!-- Top Navigation -->
+  <header class="fixed top-0 inset-x-0 z-40 glass-nav border-b border-borderSubtle">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 group">
+        <img src="https://github.com/khalidfer.png" alt="Khalid Fer" class="w-8 h-8 rounded-lg border border-borderSubtle group-hover:border-emeraldPro/60 transition-colors" />
+        <div class="flex items-center gap-2">
+          <span class="font-bold text-base tracking-tight text-white">Khalid Fer</span>
+          <span class="text-xs font-mono text-zinc-500 hidden sm:inline">@khalidfer</span>
+        </div>
+      </a>
 
----
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-zinc-400">
+        <a href="#about" class="hover:text-white transition-colors">About</a>
+        <a href="#flagship" class="hover:text-white transition-colors">Flagship Software</a>
+        <a href="#tools" class="hover:text-white transition-colors">Tools & Extensions</a>
+        <a href="#connect" class="hover:text-white transition-colors">Connect</a>
+      </nav>
 
-### Featured Software
+      <div class="flex items-center gap-3">
+        <a href="https://github.com/khalidfer" target="_blank" class="inline-flex items-center gap-2 bg-surface hover:bg-surfaceHover text-zinc-200 font-medium text-xs sm:text-sm px-3.5 py-2 rounded-lg border border-borderSubtle transition-colors">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.youtube.com/c/KhalidFer" target="_blank" class="inline-flex items-center gap-2 bg-emeraldPro hover:bg-emeraldHover text-zinc-950 font-semibold text-xs sm:text-sm px-3.5 py-2 rounded-lg transition-colors">
+          <span>YouTube</span>
+        </a>
+      </div>
+    </div>
+  </header>
 
-* **[KDP Book Factory Pro](https://khalidfer.github.io/bookfactorypro/)** — An all-in-one Windows desktop publishing suite for Amazon KDP creators. Includes parametric full-wrap cover design, mixed puzzle & coloring interior generators, 300 DPI image upscaling, offline category lookup, and print-ready PDF preflighting.
+  <!-- Hero Section -->
+  <section class="relative pt-32 pb-20 sm:pt-40 sm:pb-24 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+    <div class="absolute top-20 left-1/4 w-[480px] h-[240px] bg-emeraldPro/10 blur-[130px] rounded-full pointer-events-none"></div>
 
----
+    <div class="grid lg:grid-cols-12 gap-10 items-center relative z-10">
+      <div class="lg:col-span-8 space-y-6 reveal active">
+        <div class="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-surface border border-borderSubtle text-xs font-mono text-zinc-300">
+          <span class="w-2 h-2 rounded-full bg-emeraldPro"></span>
+          <span>Morocco • Software & Android Developer • 100K+ YouTube</span>
+        </div>
 
-### Web Tools & Browser Extensions
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
+          Khalid Ferchach
+          <span class="block text-2xl sm:text-3xl font-semibold text-zinc-400 mt-2">
+            Building practical desktop suites, Android apps, and AI-assisted publishing tools.
+          </span>
+        </h1>
 
-* **[KDP Coloring Book Prompt Generator](https://khalidfer.github.io/coloringprompt/)** — Structured prompt builder for generating consistent coloring book pages.
-* **Dot To Dot Generator** — Browser-based utility for turning outlines into numbered connect-the-dots activity pages.
-* **Ultra Amazon Suggestion & BSR Viewer** — Chrome extensions for faster keyword research and Best Sellers Rank tracking.
-* **Ultra TM Checker** — Quick trademark screening utility for print-on-demand sellers.
-* **KDP Cover Calculator** — Instant spine width and full-wrap cover dimension calculator.
-* **Ultra QR Code & Clipboard Manager** — Lightweight, local-first Manifest V3 productivity extensions.
+        <p class="text-zinc-400 text-base sm:text-lg leading-relaxed max-w-2xl">
+          I'm a self-taught developer and digital creator focused on turning repetitive creative workflows into fast, local-first software. On my YouTube channels (<strong class="text-zinc-200 font-medium">Khalid Fer</strong> & <strong class="text-zinc-200 font-medium">بيزنيس رقمي</strong>), I share real builds, automation workflows, and tools for self-publishers and independent creators.
+        </p>
 
----
+        <div class="flex flex-wrap items-center gap-3.5 pt-2">
+          <a href="https://khalidfer.github.io/bookfactorypro/" target="_blank" class="inline-flex items-center gap-2 bg-emeraldPro hover:bg-emeraldHover text-zinc-950 font-bold text-sm px-5 py-3 rounded-xl transition-all hover:scale-[1.02]">
+            <span>Explore KDP Book Factory Pro</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+          <a href="#tools" class="inline-flex items-center gap-2 bg-surface hover:bg-surfaceHover text-zinc-200 font-semibold text-sm px-5 py-3 rounded-xl border border-borderSubtle transition-colors">
+            <span>Browse All Tools</span>
+          </a>
+        </div>
+      </div>
 
-### Tech Stack & Principles
+      <!-- Profile Card -->
+      <div class="lg:col-span-4 reveal active">
+        <div class="rounded-2xl bg-surface border border-borderSubtle p-6 space-y-5">
+          <div class="flex items-center gap-4">
+            <img src="https://github.com/khalidfer.png" alt="Khalid Ferchach" class="w-16 h-16 rounded-xl border border-borderSubtle object-cover" />
+            <div>
+              <h2 class="font-bold text-lg text-white">Khalid Ferchach</h2>
+              <p class="text-xs font-mono text-emeraldPro">Khalid Fer / @k24fer</p>
+              <p class="text-xs text-zinc-400 mt-0.5">Berkane, Morocco</p>
+            </div>
+          </div>
 
-* **Languages & Frameworks:** Python (PySide6 / PyQt), Android (Kotlin / Java), HTML5, Tailwind CSS, JavaScript (Chrome Manifest V3)
-* **Design Philosophy:** Clean dark interfaces, local-first architecture, zero unnecessary bloat, and privacy-respecting BYOK (Bring Your Own Key) AI workflows.
+          <div class="border-t border-borderSubtle pt-4 space-y-2.5 text-xs">
+            <div class="flex justify-between">
+              <span class="text-zinc-500">Focus</span>
+              <span class="text-zinc-200 font-medium">Desktop, Android & Extensions</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-zinc-500">Community</span>
+              <span class="text-zinc-200 font-medium">100,000+ YouTube Subscribers</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-zinc-500">Architecture</span>
+              <span class="text-zinc-200 font-medium">Local-First & BYOK AI</span>
+            </div>
+          </div>
 
----
+          <div class="border-t border-borderSubtle pt-4 flex items-center justify-between gap-2">
+            <a href="https://www.youtube.com/c/KhalidFer" target="_blank" class="flex-1 text-center py-2 rounded-lg bg-surfaceHover hover:bg-zinc-800 text-xs font-medium text-zinc-200 border border-borderSubtle transition-colors">YouTube</a>
+            <a href="https://x.com/KhalidFer" target="_blank" class="flex-1 text-center py-2 rounded-lg bg-surfaceHover hover:bg-zinc-800 text-xs font-medium text-zinc-200 border border-borderSubtle transition-colors">X</a>
+            <a href="https://www.tiktok.com/@khalidfer" target="_blank" class="flex-1 text-center py-2 rounded-lg bg-surfaceHover hover:bg-zinc-800 text-xs font-medium text-zinc-200 border border-borderSubtle transition-colors">TikTok</a>
+            <a href="https://t.me/+HazrwuUe9EExNGQ0" target="_blank" class="flex-1 text-center py-2 rounded-lg bg-surfaceHover hover:bg-zinc-800 text-xs font-medium text-zinc-200 border border-borderSubtle transition-colors">Telegram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-### Connect
+  <!-- About & Engineering Approach -->
+  <section id="about" class="py-16 px-4 sm:px-6 lg:px-8 border-y border-borderSubtle bg-surface/30">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 reveal">
+      <div class="rounded-xl bg-surface border border-borderSubtle p-6">
+        <div class="text-xs font-mono text-emeraldPro mb-2">01 / DESKTOP & ANDROID</div>
+        <h3 class="font-bold text-white text-base mb-2">Native Performance</h3>
+        <p class="text-xs sm:text-sm text-zinc-400 leading-relaxed">
+          From multi-module Windows desktop studios built with Python & PySide6 to published Android applications on Google Play, every tool is engineered for speed and offline reliability.
+        </p>
+      </div>
 
-* **YouTube:** [youtube.com/c/KhalidFer](https://www.youtube.com/c/KhalidFer)
-* **X (Twitter):** [@KhalidFer](https://x.com/KhalidFer)
-* **TikTok:** [@khalidfer](https://www.tiktok.com/@khalidfer)
-* **Telegram Community:** [Join Channel](https://t.me/+HazrwuUe9EExNGQ0)
+      <div class="rounded-xl bg-surface border border-borderSubtle p-6">
+        <div class="text-xs font-mono text-emeraldPro mb-2">02 / PRACTICAL AI</div>
+        <h3 class="font-bold text-white text-base mb-2">BYOK & Local-First</h3>
+        <p class="text-xs sm:text-sm text-zinc-400 leading-relaxed">
+          No forced subscriptions or invasive cloud lock-ins. My tools store project data locally and let users plug in their own Gemini or Pixabay API keys directly.
+        </p>
+      </div>
+
+      <div class="rounded-xl bg-surface border border-borderSubtle p-6">
+        <div class="text-xs font-mono text-emeraldPro mb-2">03 / KDP & POD WORKFLOWS</div>
+        <h3 class="font-bold text-white text-base mb-2">Built by a Publisher</h3>
+        <p class="text-xs sm:text-sm text-zinc-400 leading-relaxed">
+          Every generator, spine calculator, 300 DPI upscaler, and preflight scanner comes directly from real-world Amazon KDP and print-on-demand production experience.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flagship Project Spotlight -->
+  <section id="flagship" class="py-24 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+    <div class="rounded-2xl bg-surface border border-borderSubtle p-6 sm:p-10 reveal">
+      <div class="grid lg:grid-cols-12 gap-8 items-center">
+        <div class="lg:col-span-6 space-y-4">
+          <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-md text-xs font-mono bg-emeraldPro/10 text-emeraldPro border border-emeraldPro/20">
+            FLAGSHIP DESKTOP SUITE • v1.0.0
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight">
+            KDP Book Factory Pro
+          </h2>
+          <p class="text-sm sm:text-base text-zinc-400 leading-relaxed">
+            An all-in-one Windows publishing studio for Amazon KDP creators. Combines parametric full-wrap cover design, mixed puzzle & coloring book generators, a 300 DPI image upscaler, real-time royalty simulation across 14 marketplaces, and automated PDF preflighting.
+          </p>
+          <div class="flex flex-wrap gap-2 pt-1 font-mono text-xs text-zinc-300">
+            <span class="px-2.5 py-1 rounded bg-obsidian border border-borderSubtle">Python / PySide6</span>
+            <span class="px-2.5 py-1 rounded bg-obsidian border border-borderSubtle">300 DPI Engine</span>
+            <span class="px-2.5 py-1 rounded bg-obsidian border border-borderSubtle">Gemini BYOK</span>
+            <span class="px-2.5 py-1 rounded bg-obsidian border border-borderSubtle">Windows 10/11</span>
+          </div>
+          <div class="flex flex-wrap items-center gap-3 pt-4">
+            <a href="https://khalidfer.github.io/bookfactorypro/" target="_blank" class="inline-flex items-center gap-2 bg-emeraldPro hover:bg-emeraldHover text-zinc-950 font-bold text-sm px-5 py-2.5 rounded-lg transition-colors">
+              <span>Product Page & Screenshots</span>
+            </a>
+            <a href="https://github.com/khalidfer/bookfactorypro/releases/latest" target="_blank" class="inline-flex items-center gap-2 bg-surfaceHover hover:bg-zinc-800 text-zinc-200 font-medium text-sm px-4 py-2.5 rounded-lg border border-borderSubtle transition-colors">
+              <span>Latest Release</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <a href="https://khalidfer.github.io/bookfactorypro/" target="_blank" class="block rounded-xl overflow-hidden border border-borderSubtle hover:border-zinc-600 transition-colors">
+            <img src="https://raw.githubusercontent.com/khalidfer/bookfactorypro/main/screenshots/main-workspace.png" alt="KDP Book Factory Pro Workspace" class="w-full h-auto" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Web Tools & Chrome Extensions -->
+  <section id="tools" class="py-20 px-4 sm:px-6 lg:px-8 border-t border-borderSubtle bg-surface/20">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4 reveal">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight">Web Tools & Chrome Extensions</h2>
+          <p class="text-sm text-zinc-400 mt-1.5">Lightweight, zero-bloat utilities built for publishing, research, and daily productivity.</p>
+        </div>
+        <a href="https://github.com/khalidfer?tab=repositories" target="_blank" class="text-xs font-mono text-emeraldPro hover:underline">
+          View all repositories →
+        </a>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        
+        <a href="https://khalidfer.github.io/coloringprompt/" target="_blank" class="project-card rounded-xl bg-surface border border-borderSubtle p-5 block reveal">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-mono text-emeraldPro">WEB APP</span>
+            <span class="text-zinc-500 text-xs">↗</span>
+          </div>
+          <h3 class="font-semibold text-white text-base">KDP Coloring Prompt Generator</h3>
+          <p class="text-xs text-zinc-400 mt-1.5 leading-relaxed">Structured prompt builder for generating consistent, clean line-art coloring book pages.</p>
+        </a>
+
+        <div class="project-card rounded-xl bg-surface border border-borderSubtle p-5 reveal">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-mono text-zinc-400">WEB UTILITY</span>
+          </div>
+          <h3 class="font-semibold text-white text-base">Dot To Dot Generator</h3>
+          <p class="text-xs text-zinc-400 mt-1.5 leading-relaxed">Browser-based utility for converting outlines into numbered connect-the-dots activity pages.</p>
+        </div>
+
+        <div class="project-card rounded-xl bg-surface border border-borderSubtle p-5 reveal">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-mono text-zinc-400">CHROME EXTENSION</span>
+          </div>
+          <h3 class="font-semibold text-white text-base">Ultra Amazon Suggestion & BSR</h3>
+          <p class="text-xs text-zinc-400 mt-1.5 leading-relaxed">Keyword autocomplete expansion and instant Best Sellers Rank insights directly on Amazon.</p>
+        </div>
+
+        <div class="project-card rounded-xl bg-surface border border-borderSubtle p-5 reveal">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-mono text-zinc-400">CHROME EXTENSION</span>
+          </div>
+          <h3 class="font-semibold text-white text-base">Ultra TM Checker & Etsy Research</h3>
+          <p class="text-xs text-zinc-400 mt-1.5 leading-relaxed">Fast trademark screening and keyword tag analysis tools for print-on-demand sellers.</p>
+        </div>
+
+        <div class="project-card rounded-xl bg-surface border border-borderSubtle p-5 reveal">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-mono text-zinc-400">KDP UTILITY</span>
+          </div>
+          <h3 class="font-semibold text-white text-base">KDP Cover & Spine Calculator</h3>
+          <p class="text-xs text-zinc-400 mt-1.5 leading-relaxed">Instant full-wrap cover dimensions and spine thickness calculation for paperback & hardcover.</p>
+        </div>
+
+        <div class="project-card rounded-xl bg-surface border border-borderSubtle p-5 reveal">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-mono text-zinc-400">MANIFEST V3</span>
+          </div>
+          <h3 class="font-semibold text-white text-base">Ultra QR Code & Clipboard Manager</h3>
+          <p class="text-xs text-zinc-400 mt-1.5 leading-relaxed">Privacy-first productivity extensions with local browser storage and zero external tracking.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Connect & Channels -->
+  <section id="connect" class="py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto text-center reveal">
+    <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight mb-3">Follow the Builds & Tutorials</h2>
+    <p class="text-sm sm:text-base text-zinc-400 mb-8 max-w-xl mx-auto">
+      Join over 100,000 subscribers on YouTube or connect on social channels for software releases, coding workflows, and digital publishing tutorials.
+    </p>
+    <div class="flex flex-wrap items-center justify-center gap-3">
+      <a href="https://www.youtube.com/c/KhalidFer" target="_blank" class="px-5 py-2.5 rounded-xl bg-surface hover:bg-surfaceHover border border-borderSubtle text-sm font-medium text-white transition-colors">
+        YouTube · Khalid Fer
+      </a>
+      <a href="https://github.com/khalidfer" target="_blank" class="px-5 py-2.5 rounded-xl bg-surface hover:bg-surfaceHover border border-borderSubtle text-sm font-medium text-white transition-colors">
+        GitHub · @khalidfer
+      </a>
+      <a href="https://x.com/KhalidFer" target="_blank" class="px-5 py-2.5 rounded-xl bg-surface hover:bg-surfaceHover border border-borderSubtle text-sm font-medium text-white transition-colors">
+        X · @KhalidFer
+      </a>
+      <a href="https://www.tiktok.com/@khalidfer" target="_blank" class="px-5 py-2.5 rounded-xl bg-surface hover:bg-surfaceHover border border-borderSubtle text-sm font-medium text-white transition-colors">
+        TikTok · @khalidfer
+      </a>
+      <a href="https://t.me/+HazrwuUe9EExNGQ0" target="_blank" class="px-5 py-2.5 rounded-xl bg-surface hover:bg-surfaceHover border border-borderSubtle text-sm font-medium text-white transition-colors">
+        Telegram Community
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-borderSubtle py-8 px-4 sm:px-6 lg:px-8 text-xs text-zinc-500">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <span>© <span id="year"></span> Khalid Ferchach (Khalid Fer). All rights reserved.</span>
+      <span class="font-mono text-zinc-600">Built in Morocco</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
