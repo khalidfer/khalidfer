@@ -1,46 +1,36 @@
-# 🌟 خالد فير – المحفظة الشخصية (Portfolio)
+### Hi, I'm Khalid Ferchach (Khalid Fer)
 
-> **رائد أعمال رقمي | صانع محتوى | مطور أدوات SaaS مجانية | +100K مشترك على يوتيوب**
-
-مرحبًا، أنا **خالد فير**، مطور ويب هاوي ورائد أعمال رقمي مُتخصّص في دمج الذكاء الاصطناعي مع النشر الذاتي (KDP)، الطباعة عند الطلب، وبناء أدوات مفتوحة تُسهّل رحلة المنتجين المستقلين.
-
-هذا الموقع هو محفظتي الرقمية — ليس مجرد عرض لمشاريعي، بل **معرض لأدواتي المجانية** التي طوّرتها لمساعدة الآلاف من صانعي المحتوى والمستقلين حول العالم.
-
-## 🔧 ما الذي ستجده هنا؟
-
-- ✅ **Ultra Amazon Suggestion** – توسيع اقتراحات بحث أمازون  
-- ✅ **Ultra TM Checker** – فحص العلامات التجارية بسرعة  
-- ✅ **Amazon BSR Viewer** – مراقبة ترتيب المبيعات في أمازون  
-- ✅ **Studio Ultra Generator** – توليد محتوى داخلي لكتب KDP باستخدام الذكاء الاصطناعي  
-- ✅ **Sudoku Book Generator** – إنشاء كتب ألغاز سودوكو تلقائيًا  
-- ✅ **KDP Cover Calculator** – حاسبة مقاسات أغلفة الكتب بدقة  
-- ✅ **Dot To Dot Generator** – تحويل أي صورة إلى لعبة "صل النقاط"  
-- ✅ **Coloring PDF Creator** – تحويل صور التلوين إلى ملفات PDF جاهزة للطباعة  
-- ✅ **Moroccan Radios** – استماع مباشر لإذاعات المغرب  
-
-جميع هذه الأدوات **مجانية 100%**، ومتاحة للجميع — لأنني أؤمن بأن المعرفة يجب أن تكون متاحة، لا محصورة.
-
-## 📈 من أنا؟
-
-- أكثر من **100 ألف مشترك** على قناة يوتيوب الخاصة بي  
-- أشارك تجاربي الحقيقية في العمل الحر، الربح من الإنترنت، وبناء المشاريع الرقمية  
-- أدمج الذكاء الاصطناعي في كل خطوة — من التصميم إلى التسويق  
-- أحب التصميمات العصرية ذات الواجهة الداكنة (Dark UI) والتجربة المستخدم المتميزة  
-
-## 💬 تواصل معي
-
-[![Instagram](https://img.shields.io/badge/Instagram-FF0000?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/khalidferchach/)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Khalidfer)
-[![Twitter/X](https://img.shields.io/badge/Twitter-X-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/khalidfer)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/khalidfer)
-[![Website](https://img.shields.io/badge/Website-181717?style=for-the-badge&logo=firefox&logoColor=white)](https://www.khalidfer.com/)
+I build desktop software, Android apps, browser extensions, and web utilities focused on publishing automation, print-on-demand workflows, and practical AI integration. I also run a tech and digital business YouTube channel with **100K+ subscribers**.
 
 ---
 
-> ✨ هذا الموقع مبني باستخدام **HTML5 + Tailwind CSS + FontAwesome + Google Fonts (Tajawal)** — **كله في ملف واحد**، مع دعم كامل لاتجاه RTL، وواجهة داكنة عصرية بتأثيرات Glassmorphism.  
-> لا يحتوي على أي ملفات خارجية — كل شيء مدمج لضمان السرعة، البساطة، والتحكم التام.
+### Featured Software
+
+* **[KDP Book Factory Pro](https://khalidfer.github.io/bookfactorypro/)** — An all-in-one Windows desktop publishing suite for Amazon KDP creators. Includes parametric full-wrap cover design, mixed puzzle & coloring interior generators, 300 DPI image upscaling, offline category lookup, and print-ready PDF preflighting.
 
 ---
 
-تم بناؤه بحب من أجل **مجتمع صانعي المحتوى** — لأنك لست وحدك في هذه الرحلة.  
-**ابدأ بتجربة أي أداة، ثم شاركها مع شخص آخر.** 🚀
+### Web Tools & Browser Extensions
+
+* **[KDP Coloring Book Prompt Generator](https://khalidfer.github.io/coloringprompt/)** — Structured prompt builder for generating consistent coloring book pages.
+* **Dot To Dot Generator** — Browser-based utility for turning outlines into numbered connect-the-dots activity pages.
+* **Ultra Amazon Suggestion & BSR Viewer** — Chrome extensions for faster keyword research and Best Sellers Rank tracking.
+* **Ultra TM Checker** — Quick trademark screening utility for print-on-demand sellers.
+* **KDP Cover Calculator** — Instant spine width and full-wrap cover dimension calculator.
+* **Ultra QR Code & Clipboard Manager** — Lightweight, local-first Manifest V3 productivity extensions.
+
+---
+
+### Tech Stack & Principles
+
+* **Languages & Frameworks:** Python (PySide6 / PyQt), Android (Kotlin / Java), HTML5, Tailwind CSS, JavaScript (Chrome Manifest V3)
+* **Design Philosophy:** Clean dark interfaces, local-first architecture, zero unnecessary bloat, and privacy-respecting BYOK (Bring Your Own Key) AI workflows.
+
+---
+
+### Connect
+
+* **YouTube:** [youtube.com/c/KhalidFer](https://www.youtube.com/c/KhalidFer)
+* **X (Twitter):** [@KhalidFer](https://x.com/KhalidFer)
+* **TikTok:** [@khalidfer](https://www.tiktok.com/@khalidfer)
+* **Telegram Community:** [Join Channel](https://t.me/+HazrwuUe9EExNGQ0)
